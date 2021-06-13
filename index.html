@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Starbucks Website Landing Page</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#" class="logo"><img src="assets/img/logo.png" class="logo" alt=""></a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                    <p>
+                        Menu limited.  Restricted delivery area.  Available in participating locations only.  
+                        Fees subject to change.  Prices for Starbucks® items purchased through Uber Eats may
+                         be higher than posted in stores or as marked. See the Uber Eats app for availability & restrictions.
+                    </p>
+                    <a href="https://www.starbucks.com/" target="_blank">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="assets/img/img1.png" alt="" class="starbucks">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="assets/img/thumb1.png" onclick="imgSlider('assets/img/img1.png'); changeCircleColor('#017143'); changeSciColor('#017143')"></li>
+                <li><img src="assets/img/thumb2.png" onclick="imgSlider('assets/img/img2.png'); changeCircleColor('#eb7495'); changeSciColor('#eb7495')"></li>
+                <li><img src="assets/img/thumb3.png" onclick="imgSlider('assets/img/img3.png'); changeCircleColor('#d752b1'); changeSciColor('#d752b1')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="https://facebook.com" target="_blank"><img src="assets/img/facebook.png" alt=""></a></li>
+                <li><a href="https://twitter.com" target="_blank"><img src="assets/img/twitter.png" alt=""></a></li>
+                <li><a href="https://instagram.com" target="_blank"><img src="assets/img/instagram.png" alt=""></a></li>
+            </ul>
+        </section>
+
+        <script type="text/javascript" src="assets/js/starbucks.js"></script>
+    </body>
+
+</html>
